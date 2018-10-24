@@ -24,5 +24,4 @@
     ));
 
     // Redirect to success
-    header('Location: success.php?tid='.$charge->id.'&
-    product='.$charge->description);
+    header('Location: success.php?tid='.$charge->id.'&product='.$charge->description);
