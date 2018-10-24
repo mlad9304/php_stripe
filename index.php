@@ -15,7 +15,7 @@
             <div class="form-row">
                 <input type="text" name="first_name" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="First Name">
                 <input type="text" name="last_name" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Last Name">
-                <input type="text" name="email_name" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Email Address">
+                <input type="text" name="email" class="form-control mb-3 StripeElement StripeElement--empty" placeholder="Email Address">
                 <label for="card-element">
                     Credit or debit card
                 </label>
