@@ -9,7 +9,6 @@ var elements = stripe.elements();
 var style = {
   base: {
     color: '#32325d',
-    lineHeight: '18px',
     fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
     fontSmoothing: 'antialiased',
     fontSize: '16px',
@@ -22,6 +21,11 @@ var style = {
     iconColor: '#fa755a'
   }
 };
+
+// Style button with BS
+document
+  .querySelector('#payment-form button')
+  .classList = 'btn btn-primary btn-block mt-4';
 
 // Create an instance of the card Element.
 var card = elements.create('card', {style: style});
