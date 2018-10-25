@@ -4,6 +4,7 @@
     require_once('config/db.php');
     require_once('lib/pdo_db.php');
     require_once('models/Customer.php');
+    require_once('models/Transaction.php');
     \Stripe\Stripe::setApiKey('sk_test_dnidpRA6neAqebeZmG1kQlvL');
 
     // Sanitize POST Array
